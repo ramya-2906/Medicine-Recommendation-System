@@ -1,5 +1,5 @@
 # Medicine-Recommendation-System
-A content-based medicine recommendation system built using Python, TF-IDF, and cosine similarity.
+A content-based medicine recommendation system built using Python & ML, TF-IDF, and cosine similarity.
 # Features
 
 Recommends the top 5 medicines for a disease/reason.

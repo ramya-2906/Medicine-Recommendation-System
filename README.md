@@ -21,20 +21,8 @@ Drug_Name	Name of the medicine/drug,
 Reason	Disease or reason for taking the medicine,
 Description	Description of the disease or symptoms.
 
-# How It Works
+# How It Works.
 
-Loads the medicine dataset with Drug_Name, Reason, and Description.
+**For a given input disease/reason, finds the most similar diseases and recommends their medicines.
 
-Preprocesses the data:
-
-Drops missing values
-
-Creates a lowercase version of the Reason column for case-insensitive matching.
-
-Converts the Description column into TF-IDF vectors.
-
-Computes cosine similarity between all diseases/reasons.
-
-For a given input disease/reason, finds the most similar diseases and recommends their medicines.
-
-Interactive loop allows users to input multiple queries.
+-> Interactive loop allows users to input multiple queries.
